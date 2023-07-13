@@ -1669,7 +1669,7 @@
     (effects (font (size 1.27 1.27)) (justify left top))
     (uuid 2b547520-eaab-4f0c-8eff-8e9c668294c7)
   )
-  (text_box "Features - \n\n1. Back EMF Protection. ✓\n2. 2x Channel.\n2. Able to handle 10A per channel with 30A peak,\n   and 5-30V with 50V peak.\n3. PWM Input should be isolated (No common ground with MCU). ✓\n4. LEDs indicating the direction of the Motor.\n5. Push button for testing the motor in both the directions.\n6. XT60 Terminals. ✓\n7. Should not jitter at low speeds.\n8. Should have a 100k resistor at output to provide a discharge\n   path for Back EMF. ✓\n9. Should have a voltage feedback from the output terminals.\n10. Reverse Voltage Protection from the battery. ✓\n11. Over Current Protection. ✓\n\n4\n"
+  (text_box "Features - \n\n1. Back EMF Protection. ✓\n2. 2x Channel.\n2. Able to handle 10A per channel with 30A peak,\n   and 5-30V with 50V peak.\n3. PWM Input should be isolated (No common ground with MCU). ✓\n4. LEDs indicating the direction of the Motor.\n5. Push button for testing the motor in both the directions.\n6. XT60 Terminals. ✓\n7. Should not jitter at low speeds.\n8. Should have a 100k resistor at output to provide a discharge\n   path for Back EMF. ✓\n9. Should have a voltage feedback from the output terminals.\n10. Reverse Voltage Protection from the battery. ✓\n11. Over Current Protection. ✓\n\n"
     (at 340.36 12.7 0) (size 66.04 45.72)
     (stroke (width 0) (type dash))
     (fill (type none))
