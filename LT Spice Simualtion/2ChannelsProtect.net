@@ -1,0 +1,21 @@
+* F:\Project RMMD\LT Spice Simualtion\2ChannelsProtect.asc
+V_PWM N001 0 PULSE(0 5 0 1n 1n 19m 20m)
+V_DIR N005 0 5
+R§Left N002 P001 250
+M1 P001 N005 0 0 IRFZ44N
+M2 N004 N005 N001 N001 IRF7233
+Right N003 0 250
+D1 N001 N002 D
+D2 N004 N003 D
+D3 N004 N003 D
+D4 N001 N002 D
+R1 N005 0 10k
+R2 N001 N005 10k
+.model D D
+.lib C:\users\srikar\Documents\LTspiceXVII\lib\cmp\standard.dio
+.model NMOS NMOS
+.model PMOS PMOS
+.lib C:\users\srikar\Documents\LTspiceXVII\lib\cmp\standard.mos
+.tran 0 10 0.1n 1m
+.backanno
+.end

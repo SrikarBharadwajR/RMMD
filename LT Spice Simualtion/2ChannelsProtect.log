@@ -1,0 +1,21 @@
+Circuit: * F:\Project RMMD\LT Spice Simualtion\2ChannelsProtect.asc
+
+Direct Newton iteration for .op point succeeded.
+
+Date: Sat Jul 15 23:52:36 2023
+Total elapsed time: 1.123 seconds.
+
+tnom = 27
+temp = 27
+method = modified trap
+totiter = 231103
+traniter = 231076
+tranpoints = 76290
+accept = 70906
+rejected = 5384
+matrix size = 15
+fillins = 0
+solver = Normal
+Matrix Compiler1: 748 bytes object code size  0.2/0.1/[0.1]
+Matrix Compiler2: off  [0.2]/0.2/0.3
+
