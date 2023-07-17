@@ -1,21 +1,26 @@
 Circuit: * F:\Project RMMD\LT Spice Simualtion\2ChannelsProtect.asc
 
+WARNING: Node NC_02 is floating.
+WARNING: Node N005 is floating.
+
+WARNING: Less than two connections to node NC_01.  This node is used by V_DIR1.
+WARNING: Less than two connections to node NC_02.  This node is used by V_DIR1.
 Direct Newton iteration for .op point succeeded.
 
-Date: Sat Jul 15 23:52:36 2023
-Total elapsed time: 1.123 seconds.
+Date: Sun Jul 16 10:19:11 2023
+Total elapsed time: 0.841 seconds.
 
 tnom = 27
 temp = 27
 method = modified trap
-totiter = 231103
-traniter = 231076
-tranpoints = 76290
-accept = 70906
-rejected = 5384
-matrix size = 15
-fillins = 0
+totiter = 208278
+traniter = 208252
+tranpoints = 72609
+accept = 65167
+rejected = 7442
+matrix size = 24
+fillins = 1
 solver = Normal
-Matrix Compiler1: 748 bytes object code size  0.2/0.1/[0.1]
-Matrix Compiler2: off  [0.2]/0.2/0.3
+Matrix Compiler1: 1.35 KB object code size  0.3/0.2/[0.2]
+Matrix Compiler2: 1.75 KB object code size  0.2/0.3/[0.2]
 
